@@ -34,8 +34,10 @@
                                         <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem"></textarea>
                                         <label for="message">Message</label>
                                     </div>
+                                    <!-- Form Button-->
+                                    <div class="form-floating d-grid mb-3">
+                                        <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button>
                                     </div>
-                                    <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
                                 </form>
                             </div>
                         </div>

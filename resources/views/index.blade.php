@@ -12,7 +12,7 @@
                     <div class="fs-3 fw-light text-muted"><span class="text-gradient d-inline">Backend Developer</span></div>
                     <div class="fs-5 fw-light text-muted mb-5">PHP, Laravel, MySQL, JavaScript, BootStrap, CSS, HTML</div>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                        <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href={{ url('/Resume') }}>Resume</a>
+                        <a target="_blank" class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://drive.google.com/file/d/1fhu8T2ZeWyZIHaQinActkTzC1WQse8JQ/view">Resume</a>
                         <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href={{ url('/Projects') }}>Projects</a>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                 <div class="d-flex fs-2 gap-4 mt-5">
                     <a class="text-gradient" href="https://linkedin.com/in/munaimpro" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a class="text-gradient" href="https://github.com/munaimpro" target="_blank"><i class="fab fa-github"></i></a>
-                    <a class="text-gradient" href="https://instagram.com/munaimpro"><i class="fab fa-instagram"></i></a>
+                    <a class="text-gradient" href="https://instagram.com/munaimpro" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
                 <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder mt-5 float-end" href={{ url('/About') }}>More</a>
             </div>
@@ -199,8 +199,10 @@
                         <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem"></textarea>
                         <label for="message">Message</label>
                     </div>
+                    <!-- Form Button-->
+                    <div class="form-floating d-grid mb-3">
+                        <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button>
                     </div>
-                    <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
                 </form>
             </div>
         </div>
