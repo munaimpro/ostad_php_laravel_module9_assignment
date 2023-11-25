@@ -12,8 +12,8 @@
                     <div class="fs-3 fw-light text-muted"><span class="text-gradient d-inline">Backend Developer</span></div>
                     <div class="fs-5 fw-light text-muted mb-5">PHP, Laravel, MySQL, JavaScript, BootStrap, CSS, HTML</div>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                        <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.blade.php">Resume</a>
-                        <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.blade.php">Projects</a>
+                        <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href={{ url('/Resume') }}>Resume</a>
+                        <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href={{ url('/Projects') }}>Projects</a>
                     </div>
                 </div>
             </div>
@@ -43,18 +43,18 @@
                 <p class="text-muted">I'm working with Web Design and Back End Web Development from 2020. I have 3 years of working experience with HTML, CSS, Object-Oriented PHP and MySQL. I am also experienced in JavaScript and Laravel framework.</p>
                 <p class="text-muted">I always believe in fresh coding and clear communication. My client's satisfaction is the core target for me. I follow the best coding practice and always love to make optimized and secured code.</p>
                 <div class="d-flex fs-2 gap-4 mt-5">
-                    <a class="text-gradient" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="text-gradient" href="#!"><i class="fab fa-linkedin"></i></a>
-                    <a class="text-gradient" href="#!"><i class="fab fa-github"></i></a>
+                    <a class="text-gradient" href="https://linkedin.com/in/munaimpro" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="text-gradient" href="https://github.com/munaimpro" target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="text-gradient" href="https://instagram.com/munaimpro"><i class="fab fa-instagram"></i></a>
                 </div>
-                <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder mt-5 float-end" href="about.blade.php">More</a>
+                <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder mt-5 float-end" href={{ url('/About') }}>More</a>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Service Section-->
-<section class="py-5">
+<section class="py-5" id="Service">
     <div class="container">
         <div class="col-12 text-center">
             <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">What Services I'm Providing</span></h2>
@@ -114,51 +114,57 @@
         <div class="row justify-content-center my-5">
             <!-- Project Card 1-->
             <div class="col-md-4 col-lg-4 col-12">
+                <a href="https://munaimpro.github.io/bsc_house_rental/" target="_blank" class="text-decoration-none">
                 <div class="card overflow-hidden shadow rounded-4 border-0">
-                    <div class="h-25">
-                        <img class="w-100" style="max-height: 250px;" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                    <div class="overflow-hidden" style="height: 200px">
+                        <img class="w-100" src="{{ asset('images/houserental.png') }}" alt="..." />
                     </div>
                     <div class="card-body p-0">
                         <div class="p-5">
-                            <h2 class="fw-bolder">Project Name 1</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                            <h2 class="fw-bolder">House Rental System</h2>
+                            <p>This is a Online House Rental System built using HTML, CSS, JavaScript, PHP and MySQL which is completely made by me.</p>
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
 
             <!-- Project Card 2-->
             <div class="col-md-4 col-lg-4 col-12">
+                <a href="https://munaimpro.github.io/TechBlog/" target="_blank" class="text-decoration-none">
                 <div class="card overflow-hidden shadow rounded-4 border-0">
-                    <div class="h-25">
-                        <img class="w-100" style="max-height: 250px;" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                    <div class="overflow-hidden" style="height: 200px">
+                        <img class="w-100" src="{{ asset('images/blog.png') }}" alt="..." />
                     </div>
                     <div class="card-body p-0">
                         <div class="p-5">
-                            <h2 class="fw-bolder">Project Name 1</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                            <h2 class="fw-bolder">Technology Blog</h2>
+                            <p>This is a Technology Blog website made with Laravel. Fully featured blog website with admin panel</p>
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
 
             <!-- Project Card 3-->
             <div class="col-md-4 col-lg-4 col-12">
-                <div class="card overflow-hidden shadow rounded-4 border-0">
-                    <div class="h-25">
-                        <img class="w-100" style="max-height: 250px;" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
-                    </div>
-                    <div class="card-body p-0">
-                        <div class="p-5">
-                            <h2 class="fw-bolder">Project Name 1</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                <a href="https://munaimpro.github.io/OnlineStoreBD/" target="_blank" class="text-decoration-none">
+                    <div class="card overflow-hidden shadow rounded-4 border-0">
+                        <div class="overflow-hidden" style="height: 200px">
+                            <img class="w-100" src="{{ asset('images/ecommerce.png') }}" alt="..." />
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="p-5">
+                                <h2 class="fw-bolder">Online Store BD</h2>
+                                <p>This is an E-commerce website made using  HTML, CSS, JavaScript, PHP and MySQL. Fully featured blog website with admin panel</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="text-center">
-            <a class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder mt-2 m-auto" href="projects.blade.php">All Portfolio</a>
+            <a class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder mt-2 m-auto" href={{ url('/Projects') }}>All Portfolio</a>
         </div>
     </div>
 </section>

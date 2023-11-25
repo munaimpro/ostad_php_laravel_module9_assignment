@@ -7,9 +7,9 @@
                 <p class="display-5 fw-bold">Follow Me</p>
             </div>
             <div class="d-flex justify-content-center fs-2 gap-4 mt-2">
-                <a class="text-gradient" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="text-gradient" href="#!"><i class="fab fa-linkedin"></i></a>
-                <a class="text-gradient" href="#!"><i class="fab fa-github"></i></a>
+                <a class="text-gradient" href="https://linkedin.com/in/munaimpro" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a class="text-gradient" href="https://github.com/munaimpro" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="text-gradient" href="https://instagram.com/munaimpro" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
         <div class="row align-items-center justify-content-between flex-column flex-sm-row">
